@@ -1,0 +1,1 @@
+{"name":"stockpilot","private":true,"version":"0.1.0","scripts":{"dev":"concurrently -k -n API,WEB -c green,cyan \"npm --prefix server run dev\" \"npm --prefix client run dev\"","install:all":"npm install && npm --prefix server install && npm --prefix client install","build":"npm --prefix client run build"},"devDependencies":{"concurrently":"^9.2.1"}}
